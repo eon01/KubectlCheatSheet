@@ -44,10 +44,13 @@ kubectl get pods --sort-by='.status.containerStatuses[0].restartCount'
 
 ### List pods using a different output
 
-
+```
 kubectl get pods -o <json|yaml|wide|custom-columns=...|custom-columns-file=...|go-template=...|go-template-file=...|jsonpath=...|jsonpath-file=...>
+```
 
-- JSON output: 
+Examples: 
+
+- JSON output
 
 ```
 kubectl get pods -o json
@@ -183,7 +186,7 @@ Example:
 kubectl exec -it nginx -- ls -lrth /app/
 ```
 
-### Create a pod: Dry run mode (without really creating it)
+### Create a pod: dry run mode (without really creating it)
 
 ```
 kubectl run <pod> --generator=run-pod/v1 --image=nginx --dry-run 
@@ -963,7 +966,7 @@ KUBE_EDITOR="vim" edit service <service>
 
 ## Deleting Resources
 
-### Delete a resource using the type and name specified in <file>
+### Delete a resource using the type and name specified in `<file>`
 
 ```
 kubectl delete -f <file>      
@@ -1130,7 +1133,7 @@ kubectl config current-context
 kubectl config get-contexts
 ```
 
-#### Set the default context to <cluster>
+#### Set the default context to `<cluster>`
 
 ```
 kubectl config use-context <cluster>
@@ -1215,4 +1218,4 @@ kubectl delete -f <deployment-filename>
 kubectl apply -f <deployment-filename>
 ```
 
-If the deployment is deleted in <deployment-filename>, it will also be deleted from the cluster.
+If the deployment is deleted in `<deployment-filename>`, it will also be deleted from the cluster.
