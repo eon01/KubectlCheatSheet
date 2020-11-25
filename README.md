@@ -1,7 +1,12 @@
-# Kubectl Cheatsheet
+
+# ⭐⭐⭐ Kubectl Sheetcheat ⭐⭐⭐
+
+**Notes**: This cheatsheet is part of **[Learn Kubernetes by Building 10 projects](https://bf.eralabs.io)** ebook.
+
+Fork and contribute, your contribution is welcome!
+
 
 - [Kubectl Cheatsheet](#kubectl-cheatsheet)
-  * [Notes](#notes)
   * [Pods](#pods)
     + [List all pods in namespace "default"](#list-all-pods-in-namespace--default-)
     + [View a pod in watch mode](#view-a-pod-in-watch-mode)
@@ -126,9 +131,7 @@
 
 
 
-## Notes
 
-This cheatsheet is part of **[Learn Kubernetes by Building 10 projects](https://bf.eralabs.io)** ebook.
 
 ## Pods
 
