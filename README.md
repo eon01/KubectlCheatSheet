@@ -1,5 +1,9 @@
 # Kubectl Cheatsheet
 
+[TOC]
+
+
+
 ## Notes
 
 This cheatsheet is part of **[Learn Kubernetes by Building 10 projects](https://bf.eralabs.io)** ebook.
@@ -192,7 +196,7 @@ kubectl exec -it nginx -- ls -lrth /app/
 kubectl run <pod> --generator=run-pod/v1 --image=nginx --dry-run 
 ```
 
-### Patch the pod
+### Patch a pod
 
 ```
 kubectl patch pod <pod> -p '<patch>'
@@ -262,7 +266,7 @@ spec:
     args:
     - sleep
     - "100"
-```    
+```
 
 ### Create in a namespace
 
@@ -982,13 +986,13 @@ kubectl delete pod,service <name1> <name2>
 
 ```
 kubectl delete pods,services -l <label-name>=<label-value>
-```  
+```
 
 ### Delete all pods and services in a namespace
 
 ```  
 kubectl -n <namespace> delete pods,services --all              
-```  
+```
 
 ### Delete all resources in a namespace
 
