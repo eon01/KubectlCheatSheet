@@ -3,7 +3,9 @@
 
 **Notes**: This cheatsheet is part of **[Learn Kubernetes by Building 10 projects](https://bf.eralabs.io)** ebook.
 
-Fork and contribute, your contribution is welcome!
+🍴 Fork and contribute. Your contribution is welcome 🙌
+
+![](img/header.png)
 
 
 - [Kubectl Cheatsheet](#kubectl-cheatsheet)
