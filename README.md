@@ -12,7 +12,7 @@
   * [List all pods in namespace `<default>`](#list-all-pods-in-namespace---default--)
   * [View a pod in watch mode](#view-a-pod-in-watch-mode)
   * [View all pods in watch mode](#view-all-pods-in-watch-mode)
-  * [List sroted pods](#list-sroted-pods)
+  * [List sorted pods](#list-sroted-pods)
   * [List pods using a different output](#list-pods-using-a-different-output)
   * [Formatting output](#formatting-output)
   * [List all pods in a namespace](#list-all-pods-in-a-namespace)
