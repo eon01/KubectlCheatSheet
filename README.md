@@ -17,6 +17,8 @@ Curated Kubernetes news, tutorials, tools, research papers, jobs, and more - del
 
 If you're seeking a cozy sweatshirt to wear during your extended coding sessions or a mug to exhibit your passion for programming, [you can find it all on ByteVibe](https://bytevibe.co/)
 
+# TOC
+
 - [Pods](#pods)
   * [List all pods in namespace `<default>`](#list-all-pods-in-namespace---default--)
   * [View a pod in watch mode](#view-a-pod-in-watch-mode)
