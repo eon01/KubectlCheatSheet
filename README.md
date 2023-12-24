@@ -1,12 +1,21 @@
 
-# 👌 Kubectl Sheetcheat
-
-**Notes**: This cheatsheet is part of **[Learn Kubernetes by Building 10 projects](https://learn.faun.dev)** ebook.
+# 👌 Kubectl Cheatsheet
 
 🍴 Fork and contribute. Your contribution is welcome 🙌
 
-![](img/header.png)
+# Sponsors
 
+## 📚 Cloud Native Microservices With Kubernetes
+
+A Comprehensive Guide to Building, Scaling, Deploying, Observing, and Managing Highly-Available Microservices in Kubernetes. A comprehensive and example-rich guide suitable for learners of all levels. Get the book [on Amazon](https://www.amazon.com/Cloud-Native-Microservices-Kubernetes-Highly-Available-ebook/dp/B0C923BYSL?&linkCode=ll1&tag=eon01-20&linkId=a78552e5f2c08434be802425be87a91a&language=en_US&ref_=as_li_ss_tl).
+
+## ❤️ Kaptain, Kubernetes Weekly Newsletter
+
+Curated Kubernetes news, tutorials, tools, research papers, jobs, and more - delivered to your inbox every week. [Subscribe and start receiving our free weekly newsletter](https://faun.dev/newsletter/kaptain).
+
+## 🛍️ Show off your love for all things TECH
+
+If you're seeking a cozy sweatshirt to wear during your extended coding sessions or a mug to exhibit your passion for programming, [you can find it all on ByteVibe](https://bytevibe.co/)
 
 - [Pods](#pods)
   * [List all pods in namespace `<default>`](#list-all-pods-in-namespace---default--)
